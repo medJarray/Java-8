@@ -1,10 +1,9 @@
 "Java-8-Preview" 
 
-*******************************
-******** Les Streams **********
-** Opérations Intermédiaires **
-***** Opérations Terminal *****
-*******************************
+********************************************
+* Streams : Les Opérations Intermédiaires 
+			  Les Opérations Terminal 
+********************************************
 
 Cet exemple montre divers extraits de code pour illustrer les opérations Intermédiaires et Terminale sur les Stream.
 
