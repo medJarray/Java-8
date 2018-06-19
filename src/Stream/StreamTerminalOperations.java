@@ -10,7 +10,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
- * Cet exemple montre divers extraits de code pour illustrer les opérations du terminal de stream.
+ * Cet exemple montre divers extraits de code pour illustrer les opérations terminal de stream.
  * Les opérations terminales produisent un résultat non-stream,
  * tel qu'une valeur primitive, une collection ou aucune valeur.
  * Les opérations de terminal sont généralement précédées d'opérations intermédiaires
