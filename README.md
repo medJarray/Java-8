@@ -1,14 +1,12 @@
 "Java-8-Preview" 
 
 ********************************************
-* Streams : Les Opérations Intermédiaires 
-			  Les Opérations Terminal 
+* Streams : Les Opérations Intermédiaires et Terminales 
 ********************************************
 
 Cet exemple montre divers extraits de code pour illustrer les opérations Intermédiaires et Terminale sur les Stream.
 
-* Les opérations Intermédiaires :
-Les opérations intermédiaires renvoient un autre stream qui vous permet d'appeler plusieurs opérations (intermédiaires ou terminal) sous la forme d'une requête.
+* Les opérations Intermédiaires renvoient un autre stream qui vous permet d'appeler plusieurs opérations (intermédiaires ou terminal) sous la forme d'une requête.
 
 Exemple de quelques opérations :
 	
@@ -20,8 +18,7 @@ Exemple de quelques opérations :
 	- Limit()
 
 	
-* Les opérations Terminales :
-Les opérations terminales produisent un résultat non-stream, tel qu'une valeur primitive, une collection ou aucune valeur.
+* Les opérations Terminales produisent un résultat non-stream, tel qu'une valeur primitive, une collection ou aucune valeur.
 Les opérations de terminal sont généralement précédées d'opérations intermédiaires qui renvoient un autre flux qui permet aux opérations d'être connectées sous la forme d'une requête.
 
 Exemple de quelques opérations :
