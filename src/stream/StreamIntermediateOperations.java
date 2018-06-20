@@ -1,4 +1,4 @@
-package Stream;
+package stream;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -18,9 +18,9 @@ public class StreamIntermediateOperations {
 
     public static void main(String args[]){
         /**
-         * L'opération Stream.filter renvoie un nouveau flux contenant des éléments correspondant à son prédicat.
+         * L'opération stream.filter renvoie un nouveau flux contenant des éléments correspondant à son prédicat.
          * Ci-dessous, nous utiliserons une expression lambda pour créer Predicate qui vérifiera si l'entier est inférieur à Quatre.
-         * L'opération Stream.count du terminal renverra le nombre d'éléments dans le flux.
+         * L'opération stream.count du terminal renverra le nombre d'éléments dans le flux.
          */
         List<Integer> listInteger = Arrays.asList(-4, 0, 1, 2, -6, -11, 3, 5, 10);
         long elementsLessThanFour = listInteger.stream()
@@ -33,7 +33,7 @@ public class StreamIntermediateOperations {
                 .forEach(System.out::println);
 
         /**
-         * Stream.map va transformer les éléments dans un flux en utilisant une fonction.
+         * stream.map va transformer les éléments dans un flux en utilisant une fonction.
          * Une fonction est une méthode qui accepte un argument et produit un résultat.
          * Dans l'extrait ci-dessous, nous allons créer une fonction en utilisant
          * une expression lambda qui remplacera toute chaîne nulle dans le flux avec [inconnu].
@@ -52,7 +52,7 @@ public class StreamIntermediateOperations {
                 .forEach(System.out::println);
 
         /**
-         * Le Stream.peek est extrêmement utile pendant le débogage.
+         * Le stream.peek est extrêmement utile pendant le débogage.
          * Cela vous permet de jeter un coup d'œil dans le flux avant qu'une action ne soit détectée.
          * Dans cet extrait, nous allons filtrer toutes les chaînes d'une taille supérieure à quatre,
          * puis appelez le coup d'oeil sur le flux avant que la carte ne soit appelée.
@@ -67,7 +67,7 @@ public class StreamIntermediateOperations {
                 .forEach(System.out::println);
 
         /**
-         * Stream.distinct trouvera des éléments uniques dans un flux en fonction de leur comportement .equals.
+         * stream.distinct trouvera des éléments uniques dans un flux en fonction de leur comportement .equals.
          */
         System.out.print("\n --> Distinct \n");
         IntStream.of(1, 3, 5, 1, 2, 2, 2, 56, 56, 7, 8, 9, 7, 10 , 5)
@@ -75,7 +75,7 @@ public class StreamIntermediateOperations {
                 .forEach(System.out::println);
 
         /**
-         * La méthode Stream.sorted renvoie un flux trié en fonction de l'ordre naturel.
+         * La méthode stream.sorted renvoie un flux trié en fonction de l'ordre naturel.
          * Ci-dessous, nous allons créer un flux d'ints puis appeler le tri qui renverra les nombres dans l'ordre croissant.
          */
         System.out.print("\n --> Afficher les nombres dans l'ordre **Croissant**\n");
@@ -91,7 +91,7 @@ public class StreamIntermediateOperations {
                 .forEach(System.out::println);
 
         /**
-         * Stream.limit est une technique utile pour limiter le nombre ou tronquer les éléments à traiter dans le flux.
+         * stream.limit est une technique utile pour limiter le nombre ou tronquer les éléments à traiter dans le flux.
          * De la même manière que pour limiter les éléments d'une liste,
          * nous pouvons effectuer le même comportement dans un flux, comme indiqué ci-dessous.
          */
