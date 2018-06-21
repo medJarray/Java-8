@@ -63,4 +63,15 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
 
 	- LocalDate currentDate = LocalDate.now();
 	- LocalDate addOneYersToCurrentDate = currentDate.minusYears(1);
+La classe LocalTime permet de créer des instances de LocalTime en utilisant deux méthodes factory statiques surchargées nommées of. Le premier accepte une heure et une minute et le second en accepte une seconde. Tout comme la classe LocalDate, la classe LocalTime fournit des méthodes getter pour accéder à ses valeurs, comme indiqué dans le schéma suivant.
+
+	- LocalTime currentTime = LocalTime.of(13, 30, 05);
+	- int hour = currentTime.getHours();
+	- int minute = currentTime.getMinute();
+	- int second = currentTime.getSecond();
+	
+* LocalDate et LocalTime peuvent être créés en parsant une String les représentant. Vous pouvez y parvenir en utilisant leurs méthodes d’analyse syntaxique:
+
+	- LocalDate date = LocalDate.parse("2018-06-21");
+	- LocalTime time = LocalTime.parse("15:19:50");
 	
