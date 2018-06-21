@@ -75,4 +75,10 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
 
 	- LocalDate date = LocalDate.parse("2018-06-21");
 	- LocalTime time = LocalTime.parse("15:19:50");
-	
+
+* Duration et Period :
+ Ces deux objets permettent  de gérer les intervales de temps. Period va gérer des intervales de dates (2 ans, 1 mois, 15 jours...) 	  alors de Duration va gérer des intervales de temps machine.
+ 
+ 	- int days = Period.between(finalDate, initialDate).getDays();
+	- int days_Chrono = ChronoUnit.DAYS.between(initialDate , initialDate);
+
