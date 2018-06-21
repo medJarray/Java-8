@@ -73,6 +73,6 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
 	
 * LocalDate et LocalTime peuvent être créés en parsant une String les représentant. Vous pouvez y parvenir en utilisant leurs méthodes d’analyse syntaxique:
 
-	- LocalDate date = LocalDate.parse("2018-06-21");
-	- LocalTime time = LocalTime.parse("15:19:50");
+	-LocalDate date = LocalDate.parse("2018-06-21");
+	-LocalTime time = LocalTime.parse("15:19:50");
 	
