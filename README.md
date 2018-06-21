@@ -43,6 +43,7 @@ Exemple de quelques opérations :
 
 * Java 8 introduit une nouvelle API date-heure sous le package java.time. Voici quelques-unes des classes importantes introduites dans le paquet java.time: 
 
+
 	-  Local : API de date-heure simplifiée sans complexité de gestion du fuseau horaire.
 	-  Zoned : API de date-heure spécialisée pour traiter les différents fuseaux horaires.
 
@@ -54,6 +55,7 @@ Une instance de la date actuelle peut être crée à partir de l'horloge systèm
 La LocalDate représentant un jour, un mois et une année spécifiques peut être obtenue en utilisant la méthode "of" ou en utilisant la méthode "parse". Par exemple, les extraits de code ci-dessous représentent la LocalDate du 20 Juin 2018:
 
 	- LocalDate.of(2018, 06, 20);
+	
  	- LocalDate.parse("2018-06-20");
 
 LocalDate fournit diverses méthodes utilitaires pour obtenir une variété d'informations. Jetons un coup d'œil rapide sur certaines de ces méthodes d'API :
