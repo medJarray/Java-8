@@ -43,8 +43,8 @@ Exemple de quelques opérations :
 
 * Java 8 introduit une nouvelle API date-heure sous le package java.time. Voici quelques-unes des classes importantes introduites dans le paquet java.time: 
 
-	- Local : API de date-heure simplifiée sans complexité de gestion du fuseau horaire.
-	- Zoned : API de date-heure spécialisée pour traiter les différents fuseaux horaires.
+	- 	Local : API de date-heure simplifiée sans complexité de gestion du fuseau horaire.
+	- 	Zoned : API de date-heure spécialisée pour traiter les différents fuseaux horaires.
 
 * LocalDate représente une date au format ISO (aaaa-MM-jj) sans heure. Il peut être utilisé pour stocker des dates comme les anniversaires et les jours de paie.
 Une instance de la date actuelle peut être crée à partir de l'horloge système comme ci-dessous:
