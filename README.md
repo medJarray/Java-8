@@ -66,10 +66,10 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
 	
 * La classe LocalTime permet de créer des instances de LocalTime en utilisant deux méthodes factory statiques surchargées nommées of. Le premier accepte une heure et une minute et le second en accepte une seconde. Tout comme la classe LocalDate, la classe LocalTime fournit des méthodes getter pour accéder à ses valeurs, comme indiqué dans le schéma suivant.
 
-	- LocalTime currentTime = LocalTime.of(13, 30, 05);
-	- int hour = currentTime.getHours();
-	- int minute = currentTime.getMinute();
-	- int second = currentTime.getSecond();
+	-	LocalTime currentTime = LocalTime.of(13, 30, 05);
+	-	int hour = currentTime.getHours();
+	-	int minute = currentTime.getMinute();
+	-	int second = currentTime.getSecond();
 	
 * LocalDate et LocalTime peuvent être créés en parsant une String les représentant. Vous pouvez y parvenir en utilisant leurs méthodes d’analyse syntaxique:
 
@@ -79,6 +79,6 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
 * Duration et Period :
  Ces deux objets permettent  de gérer les intervales de temps. Period va gérer des intervales de dates (2 ans, 1 mois, 15 jours...) 	  alors de Duration va gérer des intervales de temps machine.
  
- 	- int days = Period.between(finalDate, initialDate).getDays();
-	- int days_Chrono = ChronoUnit.DAYS.between(initialDate , initialDate);
+ 	-	int days = Period.between(finalDate, initialDate).getDays();
+	-	int days_Chrono = ChronoUnit.DAYS.between(initialDate , initialDate);
 
