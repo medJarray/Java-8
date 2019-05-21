@@ -81,4 +81,5 @@ Cet exemple montre comment ajouter un jour, mois et année pour une date :
  
  	-	int days = Period.between(finalDate, initialDate).getDays();
 	-	int days_Chrono = ChronoUnit.DAYS.between(initialDate , initialDate);
+	
 
